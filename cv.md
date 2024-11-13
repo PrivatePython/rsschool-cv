@@ -1,10 +1,13 @@
 # __Putyrski Pavel__
 
 ***
+
 ## Navigation
 [Contacts](#Contacts) - [About Me](#About-Me) - [Skills](#Skills) - [Code example](#Code-example) -
 [Education](#Education) - [English](#English)
+
 ***
+
 ## Contacts
 + location: Minsk
 + email: gitarist.pasha@gmail.com
@@ -38,6 +41,7 @@ These jobs have taught me:
 + learning new things under tight deadlines
 + do work with quality and on time
 + optimize workflows
+
 ***
 
 ## Skills
@@ -50,6 +54,8 @@ These jobs have taught me:
 + AntDesign(basics)
 + Git
 + Figma
+
+***
 
 ## Code example
 > Example of solving a problem with CodeWars
@@ -85,11 +91,15 @@ function humanReadable (seconds) {
 } 
 ```
 
+***
+
 ## Education
 + [Yanka Kupala State University of Grodno (civil engineer)](https://en.grsu.by/en/)
 + BelhardAcademy (JS Advanced)
 + RSSchool(Currently studying)
 + Self-study
+
+***
 
 ## English
 My level of English is now elementary([my sertificate](https://cert.efset.org/zmSUUr)), but I am now actively learning  
