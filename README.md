@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://privatepython.github.io/rsschool-cv/cv
