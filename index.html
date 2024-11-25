@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport">
+	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>CV RSSchool</title>
 	<link rel="stylesheet" href="style.css">
@@ -17,11 +17,9 @@
 				<li class="item">location:
 					<a target="_blank" href="https://g.co/kgs/3vy1VFZ">Minsk</a>
 				</li>
-
 				<li class="item">email:
 					<a target="_blank" href="mailto:gitarist.pasha@gmail.com">gitarist.pasha@gmail.com</a>
 				</li>
-
 				<li class="item">telegram:
 					<a target="_blank" href="https://telegram.org/">@smile_soul</a>
 				</li>
@@ -30,15 +28,12 @@
 			</ul>
 		</div>
 	</section>
-
 	<section class="about">
 		<h2>About Me</h2>
 		<p>
-			Hi, I'm Pavel. I'm 28 years old.I graduated from the university as a civil engineer. I was working for a building company
-			and for the last five years I've worked as an international transportation driver. I've been learning JavaScript programming for a year and a half.
+			Hi, I'm Pavel. I'm 28 years old.I graduated from the university as a civil engineer. I was working for a building company and for the last five years I've worked as an international transportation driver. I've been learning JavaScript programming for a year and a half.
 			I enjoy programming and am determined to become a high-level programmer.
 		</p>
-
 		<h3>On these jobs I had to take into account many things:</h3>
 		<ol>
 			<li>to know:
@@ -53,7 +48,6 @@
 			<li>as well as to communicate with logisticians, consignees, customs authorities and other services</li>
 			<li>maintain working documentation</li>
 		</ol>
-
 		<h3>These jobs have taught me:</h3>
 		<ul>
 			<li>time management</li>
@@ -92,9 +86,9 @@
 			<p>You can find some examples in the test fixtures.</p>
 		</div>
 		<div class="problem-solving">
-			<code>
+			<pre>
 				function humanReadable (seconds) {<br>
-				if(seconds >= 0 && seconds <= 359999){<br>
+				if(seconds >= 0 && seconds &lt;= 359999){<br>
 				let hour = Math.trunc(seconds / 3600)<br>
 				let minute = Math.trunc(seconds % 3600 / 60)<br>
 				let second = Math.trunc(seconds % 3600 % 60)<br>
@@ -104,7 +98,7 @@
 				arrDate.forEach((el,index)=>{<br>
 				if(el === 0){<br>
 				dateString += '00'<br>
-				}else if(el > 0 && el < 10){<br>
+				}else if(el > 0 && el &lt; 10){<br>
 				dateString += '0' + el<br>
 				}else dateString += el;<br>
 				arrDate.length - 1 === index ? dateString += '': dateString += ':';<br>
@@ -113,11 +107,11 @@
 				}<br>
 				return '';<br>
 				}
-			</code>
+			</pre>>
 		</div>
 	</section>
-
 	<section class="education">
+		<h2>Education</h2>
 		<ul>
 			<li>Yanka Kupala State University of Grodno (civil engineer)</li>
 			<li>BelhardAcademy (JS Advanced)</li>
@@ -125,9 +119,9 @@
 			<li>Self-study</li>
 		</ul>
 	</section>
-
 	<section class="english">
-		My level of English is now elementary(<a target="_blank" href="https://cert.efset.org/zmSUUr">my certificate</a>), but I am now actively learning the language with a teacher.
+		<h2>English</h2>
+		<p>My level of English is now elementary(<a target="_blank" href="https://cert.efset.org/zmSUUr">my certificate</a>), but I am now actively learning the language with a teacher.</p>
 	</section>
 </body>
 </html>
