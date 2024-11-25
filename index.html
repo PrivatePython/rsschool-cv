@@ -8,6 +8,104 @@
 	<title>Document</title>
 </head>
 <body>
+	<h1>Pavel Putyrski</h1>
+	<img src="" alt="photo">
+	<div>
+		<h2>Contacts</h2>
+		<ul>
+			<li class="item">location:
+				<a href="https://g.co/kgs/3vy1VFZ">Minsk</a>
+			</li>
 
+			<li class="item">email:
+				<a href="mailto:gitarist.pasha@gmail.com">gitarist.pasha@gmail.com</a>
+			</li>
+
+			<li class="item">telegram:
+				<a href="http://">@smile_soul</a>
+			</li>
+			<li class="item">Discord:<a href="http://">@Pavel</a></li>
+			<li class="item">GitHub:<a href="http://">PrivatePython</a></li>
+		</ul>
+	</div>
+
+	<section class="about">
+		<h2>About Me</h2>
+		<p>
+			Hi, I'm Pavel. I'm 28 years old.I graduated from the university as a civil engineer. I was working for a building company
+			and for the last five years I've worked as an international transportation driver. I've been learning JavaScript programming for a year and a half.
+			I enjoy programming and am determined to become a high-level programmer.
+		</p>
+
+		<h3>On these jobs I had to take into account many things:</h3>
+		<ol>
+			<li>to know:</li>
+			<li>to make schedules and routes of transportation</li>
+			<li>as well as to communicate with logisticians, consignees, customs authorities and other services</li>
+			<li>maintain working documentation</li>
+		</ol>
+
+		<h3>These jobs have taught me:</h3>
+		<ul>
+			<li>time management</li>
+			<li>teamwork</li>
+			<li>learning new things under tight deadlines</li>
+			<li>do work with quality and on time</li>
+			<li>optimize workflows</li>
+		</ul>
+	</section>
+	<section class="skills">
+		<h2>Skills</h2>
+		<ul>
+			<li>Markdown</li>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>JQuery(basics)</li>
+			<li>React(basics)</li>
+			<li>AntDesign(basics)</li>
+			<li>Git</li>
+			<li>Figma</li>
+		</ul>
+	</section>
+	<section class="code-example">
+		<h2>Code Example</h2>
+		<div class="task">
+			<p>Example of solving a problem with CodeWars</p>
+			<br/>
+			<p>Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)</p>
+			<br/>
+			<p>HH = hours, padded to 2 digits, range: 00 - 99</p>
+			<p>MM = minutes, padded to 2 digits, range: 00 - 59</p>
+			<p>SS = seconds, padded to 2 digits, range: 00 - 59</p>
+			<br/>
+			<p>The maximum time never exceeds 359999 (99:59:59)</p>
+			<p>You can find some examples in the test fixtures.</p>
+		</div>
+		<div class="problem-solving">
+			<code>
+				function humanReadable (seconds) {<br/>
+				&ensp;if(seconds >= 0 && seconds <= 359999){<br/>
+				&ensp;&ensp;let hour = Math.trunc(seconds / 3600)<br/>
+				&ensp;&ensp;let minute = Math.trunc(seconds % 3600 / 60)<br/>
+				&ensp;&ensp;let second = Math.trunc(seconds % 3600 % 60)<br/>
+				&ensp;&ensp;const arrDate = [hour, minute, second]<br/>
+				&ensp;&ensp;let dateString = '';<br/>
+				<br/>
+				&ensp;&ensp;arrDate.forEach((el,index)=>{<br/>
+				&ensp;&ensp;&ensp;if(el === 0){<br/>
+				&ensp;&ensp;&ensp;&ensp;dateString += '00'<br/>
+				&ensp;&ensp;&ensp;}else if(el > 0 && el < 10){<br/>
+				&ensp;&ensp;&ensp;&ensp;dateString += '0' + el<br/>
+				&ensp;&ensp;&ensp;}else dateString += el;<br/>
+				&ensp;&ensp;&ensp;arrDate.length - 1 === index ? dateString += '': dateString += ':';<br/>
+				&ensp;&ensp;})<br/>
+				&ensp;&ensp;return dateString<br/>
+				&ensp;}<br/>
+				&ensp;return '';<br/>
+				}
+			</code>
+		</div>
+	</section>
 </body>
 </html>
