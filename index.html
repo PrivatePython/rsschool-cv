@@ -88,7 +88,7 @@
 		<div class="problem-solving">
 			<pre>
 				function humanReadable (seconds) {<br>
-				if(seconds >= 0 && seconds &lt;= 359999){<br>
+				if(seconds &gt;= 0 &amp;&amp; seconds &lt;= 359999){<br>
 				let hour = Math.trunc(seconds / 3600)<br>
 				let minute = Math.trunc(seconds % 3600 / 60)<br>
 				let second = Math.trunc(seconds % 3600 % 60)<br>
@@ -98,7 +98,7 @@
 				arrDate.forEach((el,index)=>{<br>
 				if(el === 0){<br>
 				dateString += '00'<br>
-				}else if(el > 0 && el &lt; 10){<br>
+				}else if(el &gt; 0 &amp;&amp; el &lt; 10){<br>
 				dateString += '0' + el<br>
 				}else dateString += el;<br>
 				arrDate.length - 1 === index ? dateString += '': dateString += ':';<br>
