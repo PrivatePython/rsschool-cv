@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>CV RSSchool</title>
 	<link rel="stylesheet" href="style.css">
@@ -95,24 +94,24 @@
 		<div class="problem-solving">
 			<code>
 				function humanReadable (seconds) {<br>
-				&ensp;if(seconds >= 0 && seconds <= 359999){<br>
-				&ensp;&ensp;let hour = Math.trunc(seconds / 3600)<br>
-				&ensp;&ensp;let minute = Math.trunc(seconds % 3600 / 60)<br>
-				&ensp;&ensp;let second = Math.trunc(seconds % 3600 % 60)<br>
-				&ensp;&ensp;const arrDate = [hour, minute, second]<br>
-				&ensp;&ensp;let dateString = '';<br>
+				if(seconds >= 0 && seconds <= 359999){<br>
+				let hour = Math.trunc(seconds / 3600)<br>
+				let minute = Math.trunc(seconds % 3600 / 60)<br>
+				let second = Math.trunc(seconds % 3600 % 60)<br>
+				const arrDate = [hour, minute, second]<br>
+				let dateString = '';<br>
 				<br>
-				&ensp;&ensp;arrDate.forEach((el,index)=>{<br>
-				&ensp;&ensp;&ensp;if(el === 0){<br>
-				&ensp;&ensp;&ensp;&ensp;dateString += '00'<br>
-				&ensp;&ensp;&ensp;}else if(el > 0 && el < 10){<br>
-				&ensp;&ensp;&ensp;&ensp;dateString += '0' + el<br>
-				&ensp;&ensp;&ensp;}else dateString += el;<br>
-				&ensp;&ensp;&ensp;arrDate.length - 1 === index ? dateString += '': dateString += ':';<br>
-				&ensp;&ensp;})<br>
-				&ensp;&ensp;return dateString<br>
-				&ensp;}<br>
-				&ensp;return '';<br>
+				arrDate.forEach((el,index)=>{<br>
+				if(el === 0){<br>
+				dateString += '00'<br>
+				}else if(el > 0 && el < 10){<br>
+				dateString += '0' + el<br>
+				}else dateString += el;<br>
+				arrDate.length - 1 === index ? dateString += '': dateString += ':';<br>
+				})<br>
+				return dateString<br>
+				}<br>
+				return '';<br>
 				}
 			</code>
 		</div>
@@ -128,8 +127,7 @@
 	</section>
 
 	<section class="english">
-		My level of English is now elementary(<a target="_blank" href="https://cert.efset.org/zmSUUr">my certificate</a>), but I am now actively learning
-		the language with a teacher.
+		My level of English is now elementary(<a target="_blank" href="https://cert.efset.org/zmSUUr">my certificate</a>), but I am now actively learning the language with a teacher.
 	</section>
 </body>
 </html>
