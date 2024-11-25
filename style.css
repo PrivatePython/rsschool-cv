@@ -1,0 +1,29 @@
+*{
+    background: rgba(167, 239, 229, 0.78);
+}
+img {
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-left: 100px;
+}
+body {
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #103a04;
+}
+
+h2 {
+    text-align: center;
+}
+section {
+    width: 50%;
+    margin: auto;
+}
+.problem-solving {
+    border: 2px solid #4e0909;
+    border-radius: 10px;
+}
